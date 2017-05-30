@@ -15,9 +15,9 @@ public class TimeCalculator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double seconds = 1540800; 
-        double minutes = seconds / 60; 
-        double hours = minutes/60;
+        double seconds = 1540800; //initial seconds 
+        double minutes = seconds / 60; // we need to divede the second by 60 to receive the needed minutes
+        double hours = minutes/60;//we need to divide the minutes by 60 to receive the hours
         double days = hours/24; 
         double weeks = days/7;
         double years = days/365;
